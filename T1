@@ -1,0 +1,18 @@
+#include <iostream>https://github.com/Yagog0/Algoritmos-Sequenciais/tree/main
+using namespace std;
+#include <locale>
+
+int main() {
+    float Vp, Vr, troco; 
+    
+    cout << "valor do produto: " ;
+    cin >> Vr;
+
+    cout << "digite O dinherio: " ;
+    cin >> Vp;
+
+    troco = Vr - Vp;
+    cout << "troco " << troco ;  
+    
+    return 0;
+}
