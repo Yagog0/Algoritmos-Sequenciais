@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float valorProduto, imposto, precoFinal;
+
+    cout << "Digite o valor do produto: ";
+    cin >> valorProduto;
+
+    imposto = valorProduto * 0.15;
+
+    precoFinal = valorProduto + imposto;
+
+    cout << "O preco final do produto com 15% de imposto é: R$ " << precoFinal << endl;
+
+    return 0;
+}
