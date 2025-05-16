@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+#include <locale>
+
+int main() {
+    float N1, n2;
+    cout << "Digite um numero real: ";
+    cin >> N1;
+
+    n2 = N1 / 2;
+    cout << "a metade no numero seria: " << n2;
+}
